@@ -1,9 +1,9 @@
 // creación de los objetos
 const productos = {
-    "p1": { id: "p1", nombre: "Monitor", precio: 3000 },
-    "p2": { id: "p2", nombre: "Mousepad", precio: 150 },
-    "p3": { id: "p3", nombre: "Teclado", precio: 300 },
-    "p4": { id: "p4", nombre: "Auriculares", precio: 600}
+    "p1": { id: "p1", nombre: "chocolate", precio: 3000 },
+    "p2": { id: "p2", nombre: "gomitas", precio: 150 },
+    "p3": { id: "p3", nombre: "helado", precio: 300 },
+    "p4": { id: "p4", nombre: "refresco", precio: 600}
 };
 
 
@@ -43,10 +43,10 @@ Object.entries(productos).forEach(([clave, producto]) => {
 
 // Crea un Map que relacione la categoría del producto (clave) con el nombre (valor)
 const categoriasMap = new Map();
-categoriasMap.set("Computación", productosValidos.prod1.nombre);
-categoriasMap.set("Accesorios", productosValidos.prod2.nombre);
-categoriasMap.set("Pantallas", productosValidos.prod3.nombre);
-categoriasMap.set("Periféricos", productosValidos.prod4.nombre);
+categoriasMap.set("Computación", productosValidos.p1.nombre);
+categoriasMap.set("Accesorios", productosValidos.p2.nombre);
+categoriasMap.set("Pantallas", productosValidos.p3.nombre);
+categoriasMap.set("Periféricos", productosValidos.p4.nombre);
 
 
 
